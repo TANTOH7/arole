@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardin Magique 🌸</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="garden">
+        <!-- Compteur de fleurs -->
+        <div id="counter">Fleurs : <span id="count">0</span></div>
+        
+        <!-- Consigne -->
+        <div id="instructions">Clique n'importe où sur l'écran pour faire pousser une fleur ! 🌸</div>
+
+        <!-- Boîte de message -->
+        <div id="message-box" class="hidden">
+            <h2>🎉 Ton Jardin est Magnifique ! 🎉</h2>
+            
+            <!-- Emplacement du texte qui s'écrit caractère par caractère -->
+            <p id="typewriter-text"></p>
+
+            <!-- Prénom affiché SEULEMENT quand le texte a fini de s'écrire -->
+            <p id="girl-name">✨[AROLE JORDANIE 🍒👑 ] ✨</p>
+        </div>
+    </div>
+
+    <!-- Musique (ficher musique.mp3 dans le même dossier) -->
+    <audio id="bg-music" src="CK.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
